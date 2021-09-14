@@ -1,0 +1,15 @@
+x = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+z = []
+d = []
+for i in range(0,5):
+    z.append(x[i][1])
+    
+z.sort()
+for a in z:
+    for i in range(0,5):
+        if a == x[i][1]:
+            d.append(x[i])
+            
+
+
+print(d)
